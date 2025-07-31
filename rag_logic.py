@@ -126,10 +126,6 @@ class RAG_retriever:
 # ==============================================================================
 #  Chat History Manager Class
 # ==============================================================================
-import os
-import json
-from typing import Union
-
 class Chat_history:
     def __init__(self, history_file: str = "chat_histories/all_histories.json"):
         self.history_file = history_file

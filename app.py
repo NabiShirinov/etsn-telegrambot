@@ -70,6 +70,8 @@ def telegram_webhook():
             current_history.append({"role": "system", "selected_category": selected_category})
             chat_manager.save_history(session_id, current_history)
             telegram_send_message(chat_id, f"Seçdiyiniz kateqoriya: {selected_category}")
+            return 'ok'
+        
         return 'ok'
 
     if 'message' in update:
@@ -135,35 +137,51 @@ def telegram_webhook():
 
 # === Background Sync: JSON to Excel ===
 def json_to_excel():
+    all_records = []
+
     for filename in os.listdir(CHAT_HISTORY_DIR):
-        if filename.startswith("session") and filename.endswith(".json"):
+        if filename.startswith("all_histories") and filename.endswith(".json"):
             session_path = os.path.join(CHAT_HISTORY_DIR, filename)
             with open(session_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
+                all_sessions = json.load(f)
 
-            records = []
-            current_category = None
-            current_time = None
-            for item in data:
-                if item["role"] == "system" and "selected_category" in item:
-                    current_category = item["selected_category"]
+            for session_id, messages in all_sessions.items():
+                current_category = None
+                i = 0
+                while i < len(messages):
+                    msg = messages[i]
 
-                elif item["role"] == "user":
-                    current_time = item.get("time")
-                    records.append({
-                        "user": item.get("user"),
-                        "user_sual": item.get("sual"),
-                        "time": current_time,
-                        "selected_category": current_category
-                    })
-                    
-                elif item["role"] == "assistant" and records:
-                    records[-1]["assistant_cavab"] = item.get("cavab")
-                    records[-1]["cavab_category"] = item.get("category")
+                    if msg.get("role") == "system" and "selected_category" in msg:
+                        current_category = msg["selected_category"]
+                        i += 1
 
-            df = pd.DataFrame(records)
-            df.to_excel(EXCEL_PATH, index=False)
-            print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Saved to {EXCEL_PATH}")
+                    elif msg.get("role") == "user":
+                        record = {
+                            "session_id": session_id,
+                            "user": msg.get("user"),
+                            "user_sual": msg.get("sual"),
+                            "time": msg.get("time"),
+                            "selected_category": current_category,
+                            "assistant_cavab": None,
+                            "cavab_category": None
+                        }
+
+                        # Match with next assistant message if present
+                        if i + 1 < len(messages):
+                            next_msg = messages[i + 1]
+                            if next_msg.get("role") == "assistant":
+                                record["assistant_cavab"] = next_msg.get("cavab")
+                                record["cavab_category"] = next_msg.get("category")
+
+                        all_records.append(record)
+                        i += 2  # Move past assistant
+
+                    else:
+                        i += 1  # Skip any unrelated messages
+
+    df = pd.DataFrame(all_records)
+    df.to_excel(EXCEL_PATH, index=False)
+    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Exported all sessions to {EXCEL_PATH}")
 
 def set_telegram_webhook(public_url):
     webhook_url = f"{public_url}/telegram_webhook"
@@ -183,6 +201,7 @@ def background_sync(interval=300):
 
 @app.route("/chat_history")
 def chat_history_view():
+    json_to_excel()  
     df = pd.read_excel(EXCEL_PATH)
     table_html = df.to_html(classes="data", index=False)
     return render_template_string(f"""
@@ -194,10 +213,13 @@ def chat_history_view():
     {table_html}</body></html>
     """)
 
+
 if __name__ == '__main__':
 
     sync_thread = threading.Thread(target=background_sync, daemon=True)
     sync_thread.start()
+
+    ngrok_url = "https://7b1aa2a80eb4.ngrok-free.app"
 
     set_telegram_webhook(ngrok_url)
 
