@@ -190,9 +190,8 @@ def chat_history_view():
 
 if __name__ == '__main__':
 
-    ngrok_url = "https://etsn-telegrambot.onrender.com"
+    ngrok_url = "https://etsn-chatbot-98bf5e075ccd.herokuapp.com/"
 
     set_telegram_webhook(ngrok_url)
 
-    port = int(os.environ.get("PORT", 10000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=5050)

@@ -287,6 +287,86 @@
       "cavab": "Azərbaycan Respublikasının Nazirlər Kabinetinin 30 avqust 2016-cı il tarixli qərarının 2.4 bəndində yaşıllıqların götürülməsi barədə fiziki və ya hüquqi şəxslər tərəfindən müraciətlərin birbaşa Ekologiya və Təbii Sərvətlər Nazirliyinə deyil, yaşıllıqların yerləşdiyi aidiyyatı torpaq mülküyyətçisinə (müvafiq icra hakimiyyəti orqanına və ya bələdiyyə) ünvanlanması nəzərdə tutulmuşdur.",
       "category": "Digər",
       "time": "2025-07-31 12:39:08"
+    },
+    {
+      "role": "system",
+      "selected_category": "Balıqçılıq"
+    },
+    {
+      "role": "user",
+      "user": "Nəbi",
+      "sual": "balıq hardan tutmaq olar",
+      "time": "2025-07-31 12:52:38"
+    },
+    {
+      "role": "assistant",
+      "cavab": "Gün ərzində 10 ədəddən çox olmayan xərçəng, 0.5 kq-dan artıq olmayan onurğasızlar, balıqçılıq su obyektində olduğu müddətdə 5 kq-dan artıq olmayan balıqlar.",
+      "category": "Balıqçılıq",
+      "time": "2025-07-31 12:52:38"
+    },
+    {
+      "role": "system",
+      "selected_category": "Balıqçılıq"
+    },
+    {
+      "role": "user",
+      "user": "Nəbi",
+      "sual": "bilet necə alınmalıdır?",
+      "time": "2025-07-31 14:08:05"
+    },
+    {
+      "role": "assistant",
+      "cavab": "Balıq və digər su bioresurslarının ovu məqsədi ilə hüquqi və fiziki şəxslər balıqovlama biletini almaq üçün Nazirliyə ərizə təqdim etməlidir. Ərizədə aşağıdakılar göstərilməlidir: balıq və digər su bioresurslarının sənaye üsulu ilə ovu nəzərdə tutulan su obyektinin adı, su bioresurslarının növləri, ov limitinin miqdarı, ovlama üsulu; ovda iştirak edəcək balıqçıların soyadları, adları və atalarının adları. Ərizəyə aşağıdakı sənədlər əlavə edilir: hüquqi şəxslərin dövlət reyestrindən çıxarışının surəti; şəxsiyyət vəsiqəsinin surəti; balıqovlayan gəmilərin qeydiyyatına dair sənədlər; mülkiyyət hüquqlarını təsdiq edən sənədlərin surəti.",
+      "category": "Balıqçılıq",
+      "time": "2025-07-31 14:08:05"
+    },
+    {
+      "role": "user",
+      "user": "Nəbi",
+      "sual": "salam",
+      "time": "2025-07-31 14:28:40"
+    },
+    {
+      "role": "assistant",
+      "cavab": "Zəhmət olmasa, sorğunuzu daha ətraflı formada yazın.",
+      "category": "Sistem Mesajı",
+      "time": "2025-07-31 14:28:40"
+    },
+    {
+      "role": "user",
+      "user": "Nəbi",
+      "sual": "balıq harda tutmaq olar?",
+      "time": "2025-07-31 14:28:50"
+    },
+    {
+      "role": "assistant",
+      "cavab": "Gün ərzində 10 ədəddən çox olmayan xərçəng, 0.5 kq-dan artıq olmayan onurğasızlar, balıqçılıq su obyektində olduğu müddətdə 5 kq-dan artıq olmayan balıqlar.",
+      "category": "Balıqçılıq",
+      "time": "2025-07-31 14:28:50"
+    },
+    {
+      "role": "user",
+      "user": "Nəbi",
+      "sual": "salam",
+      "time": "2025-07-31 14:29:37"
+    },
+    {
+      "role": "assistant",
+      "cavab": "Zəhmət olmasa, sorğunuzu daha ətraflı formada yazın.",
+      "category": "Sistem Mesajı",
+      "time": "2025-07-31 14:29:37"
+    },
+    {
+      "role": "user",
+      "user": "Nəbi",
+      "sual": "ov bileti hardan almaq olar",
+      "time": "2025-07-31 14:33:44"
+    },
+    {
+      "role": "assistant",
+      "cavab": "Yetkinlik yaşına çatmış Azərbaycan Respublikası vətəndaşı aşağıdakı sənədləri təqdim etdikdə və təyin olunmuş vaxtda ovçuluğun minimum sınağını keçdiyi halda ovçuluq biletini əldə edə bilər: fiziki şəxsin şəxsiyyətini təsdiq edən sənəd - şəxsiyyət vəsiqəsinin surəti; ov silahının saxlanılması və gəzdirilməsi hüququnu təsdiq edən şəhadətnamənin surəti; iki ədəd 3x4 ölçüdə foto şəkil; dövlət rüsumunun ödənilməsi barədə qəbzin surəti.",
+      "category": "Ovçuluq",
+      "time": "2025-07-31 14:33:44"
     }
   ],
   "1884204484": [
