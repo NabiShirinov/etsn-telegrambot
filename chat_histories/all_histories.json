@@ -29,7 +29,6 @@
       "cavab": "Gün ərzində 10 ədəddən çox olmayan xərçəng, 0.5 kq-dan artıq olmayan onurğasızlar, balıqçılıq su obyektində olduğu müddətdə 5 kq-dan artıq olmayan balıqlar.",
       "category": "Balıqçılıq"
     },
- 
     {
       "role": "assistant",
       "cavab": "Ovçuluq biletinə malik olan Azərbaycan Respublikası vətəndaşları ov mövsümündə ov icazələrinin əldə edilməsi ilə bağlı Ərazi Ekologiya İdarələrinə müraciət edə bilərlər. Əcnəbilər və vətəndaşlığı olmayan şəxslər isə ov icazələrini almaq üçün Ekologiya və Təbii Sərvətlər Nazirliyinin 5 saylı Asan Xidmət Mərkəzində fəaliyyyət göstərən pəncərəsinə müraciət etməli, xüsusi ərizə formasını doldurmaqla sənədlərin surətlərini təqdim etməlidir. Müraciətdə aşağıdakılar öz əksini tapmalıdır: şəxsiyyəti təsdiq edən sənəd haqqında məlumatlar; ov silahının istifadəsinə dair icazə və silahın respublika ərazisində saxlanma müddəti; ovun vaxtı; ovlama yeri; ov obyektinin növü.",
@@ -272,6 +271,22 @@
       "cavab": "Balıqçılıq haqqında Azərbaycan Respublikasının qanununa müvafiq olaraq idman və həvəskar balıq ovu ödənişsizdir.",
       "category": "Balıqçılıq",
       "time": "2025-07-31 11:41:10"
+    },
+    {
+      "role": "system",
+      "selected_category": "Digər"
+    },
+    {
+      "role": "user",
+      "user": "Nəbi",
+      "sual": "ağac harda kəsmək olar",
+      "time": "2025-07-31 12:39:08"
+    },
+    {
+      "role": "assistant",
+      "cavab": "Azərbaycan Respublikasının Nazirlər Kabinetinin 30 avqust 2016-cı il tarixli qərarının 2.4 bəndində yaşıllıqların götürülməsi barədə fiziki və ya hüquqi şəxslər tərəfindən müraciətlərin birbaşa Ekologiya və Təbii Sərvətlər Nazirliyinə deyil, yaşıllıqların yerləşdiyi aidiyyatı torpaq mülküyyətçisinə (müvafiq icra hakimiyyəti orqanına və ya bələdiyyə) ünvanlanması nəzərdə tutulmuşdur.",
+      "category": "Digər",
+      "time": "2025-07-31 12:39:08"
     }
   ],
   "1884204484": [
