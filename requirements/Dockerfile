@@ -9,10 +9,7 @@ ENV PATH="/home/user/.local/bin:$PATH"
 # Set working directory
 WORKDIR /app
 
-# Install ffmpeg
-USER root
-RUN apt-get update && apt-get install -y ffmpeg
-USER user
+../USER user
 # Copy requirements and install
 COPY --chown=user requirements.txt requirements.txt
 RUN pip install --no-cache-dir --upgrade pip \

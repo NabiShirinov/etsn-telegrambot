@@ -219,7 +219,7 @@ if __name__ == '__main__':
     sync_thread = threading.Thread(target=background_sync, daemon=True)
     sync_thread.start()
 
-    ngrok_url = "https://7b1aa2a80eb4.ngrok-free.app"
+    ngrok_url = "https://etsn-telegrambot.onrender.com"
 
     set_telegram_webhook(ngrok_url)
 
