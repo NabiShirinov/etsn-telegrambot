@@ -1,0 +1,262 @@
+[
+   {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "nə sənəd lazımdır ki bilet alım?",
+    "time": "2025-07-30 10:38:49"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Yetkinlik yaşına çatmış Azərbaycan Respublikası vətəndaşı aşağıdakı sənədləri təqdim etdikdə və təyin olunmuş vaxtda ovçuluğun minimum sınağını keçdiyi halda ovçuluq biletini əldə edə bilər: fiziki şəxsin şəxsiyyətini təsdiq edən sənəd - şəxsiyyət vəsiqəsinin surəti; ov silahının saxlanılması və gəzdirilməsi hüququnu təsdiq edən şəhadətnamənin surəti; iki ədəd 3x4 ölçüdə foto şəkil; dövlət rüsumunun ödənilməsi barədə qəbzin surəti.",
+    "category": "Ovçuluq",
+    "time": "2025-07-30 10:38:49"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "yaxsi , bəs balıqciliq ucun ne sened lazımdı",
+    "time": "2025-07-30 10:39:28"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Balıq və digər su bioresurslarının ovu məqsədi ilə hüquqi və fiziki şəxslər balıqovlama biletini almaq üçün Nazirliyə ərizə təqdim etməlidir. Ərizədə aşağıdakılar göstərilməlidir: balıq və digər su bioresurslarının sənaye üsulu ilə ovu nəzərdə tutulan su obyektinin adı, su bioresurslarının növləri, ov limitinin miqdarı, ovlama üsulu; ovda iştirak edəcək balıqçıların soyadları, adları və atalarının adları. Ərizəyə aşağıdakı sənədlər əlavə edilir: hüquqi şəxslərin dövlət reyestrindən çıxarışının surəti; şəxsiyyət vəsiqəsinin surəti; balıqovlayan gəmilərin qeydiyyatına dair sənədlər; mülkiyyət hüquqlarını təsdiq edən sənədlərin surəti.",
+    "category": "Balıqçılıq",
+    "time": "2025-07-30 10:39:28"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ovçuluq"
+  },
+    {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ovçuluq"
+  },
+  {
+    "role": "user",
+    "sual": "balıq harda tutmaq olar"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Gün ərzində 10 ədəddən çox olmayan xərçəng, 0.5 kq-dan artıq olmayan onurğasızlar, balıqçılıq su obyektində olduğu müddətdə 5 kq-dan artıq olmayan balıqlar.",
+    "category": "Balıqçılıq"
+  },
+  {
+    "role": "user",
+    "sual": "Yard, yard ki."
+  },
+  {
+    "role": "assistant",
+    "cavab": "Ovçuluq biletinə malik olan Azərbaycan Respublikası vətəndaşları ov mövsümündə ov icazələrinin əldə edilməsi ilə bağlı Ərazi Ekologiya İdarələrinə müraciət edə bilərlər. Əcnəbilər və vətəndaşlığı olmayan şəxslər isə ov icazələrini almaq üçün Ekologiya və Təbii Sərvətlər Nazirliyinin 5 saylı Asan Xidmət Mərkəzində fəaliyyyət göstərən pəncərəsinə müraciət etməli, xüsusi ərizə formasını doldurmaqla sənədlərin surətlərini təqdim etməlidir. Müraciətdə aşağıdakılar öz əksini tapmalıdır: şəxsiyyəti təsdiq edən sənəd haqqında məlumatlar; ov silahının istifadəsinə dair icazə və silahın respublika ərazisində saxlanma müddəti; ovun vaxtı; ovlama yeri; ov obyektinin növü.",
+    "category": "Ovçuluq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ovçuluq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ovçuluq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Balıq harda tutmaq olar"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Gün ərzində 10 ədəddən çox olmayan xərçəng, 0.5 kq-dan artıq olmayan onurğasızlar, balıqçılıq su obyektində olduğu müddətdə 5 kq-dan artıq olmayan balıqlar.",
+    "category": "Balıqçılıq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ovçuluq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Bili et parl janu dələ məcqat.",
+    "time": "2025-07-28 12:25:29"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Təəssüf ki, sorğunuza uyğun cavab tapa bilmədim. Zəhmət olmasa, sualınızı fərqli şəkildə ifadə edin.",
+    "category": "Kateqoriya tapılmadı",
+    "time": "2025-07-28 12:25:29"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Salamğ az ç запис<|fa|> both our לעしНу tam �uit Mygjal 의lehă puesto",
+    "time": "2025-07-28 15:57:10"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Təəssüf ki, sorğunuza uyğun cavab tapa bilmədim. Zəhmət olmasa, sualınızı fərqli şəkildə ifadə edin.",
+    "category": "Kateqoriya tapılmadı",
+    "time": "2025-07-28 15:57:10"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Salam",
+    "time": "2025-07-28 15:57:11"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Zəhmət olmasa, sorğunuzu daha ətraflı formada yazın.",
+    "category": "Sistem Mesajı",
+    "time": "2025-07-28 15:57:11"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "olay hísmeli.",
+    "time": "2025-07-28 16:00:24"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Zəhmət olmasa, sorğunuzu daha ətraflı formada yazın.",
+    "category": "Sistem Mesajı",
+    "time": "2025-07-28 16:00:24"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Avçuluq bileti barədə məlumat",
+    "time": "2025-07-28 16:52:38"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Yetkinlik yaşına çatmış Azərbaycan Respublikası vətəndaşı aşağıdakı sənədləri təqdim etdikdə və təyin olunmuş vaxtda ovçuluğun minimum sınağını keçdiyi halda ovçuluq biletini əldə edə bilər: fiziki şəxsin şəxsiyyətini təsdiq edən sənəd - şəxsiyyət vəsiqəsinin surəti; ov silahının saxlanılması və gəzdirilməsi hüququnu təsdiq edən şəhadətnamənin surəti; iki ədəd 3x4 ölçüdə foto şəkil; dövlət rüsumunun ödənilməsi barədə qəbzin surəti.",
+    "category": "Ovçuluq",
+    "time": "2025-07-28 16:52:38"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Salam, bağlıqçılığ!",
+    "time": "2025-07-28 20:30:45"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Zəhmət olmasa, sorğunuzu daha ətraflı formada yazın.",
+    "category": "Sistem Mesajı",
+    "time": "2025-07-28 20:30:45"
+  },
+  {
+    "role": "system",
+    "selected_category": "Balıqçılıq"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ovçuluq"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Bileti haradan əldə etmək olar?",
+    "time": "2025-07-28 20:42:08"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Yetkinlik yaşına çatmış Azərbaycan Respublikası vətəndaşı aşağıdakı sənədləri təqdim etdikdə və təyin olunmuş vaxtda ovçuluğun minimum sınağını keçdiyi halda ovçuluq biletini əldə edə bilər: fiziki şəxsin şəxsiyyətini təsdiq edən sənəd - şəxsiyyət vəsiqəsinin surəti; ov silahının saxlanılması və gəzdirilməsi hüququnu təsdiq edən şəhadətnamənin surəti; iki ədəd 3x4 ölçüdə foto şəkil; dövlət rüsumunun ödənilməsi barədə qəbzin surəti.",
+    "category": "Ovçuluq",
+    "time": "2025-07-28 20:42:08"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ekologiya və Təbii Sərvətlər Nazirliyi"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ekologiya və Təbii Sərvətlər Nazirliyi"
+  },
+  {
+    "role": "system",
+    "selected_category": "Ekologiya və Təbii Sərvətlər Nazirliyi"
+  },
+  {
+    "role": "user",
+    "user": "test Test",
+    "sual": "Ekoloji və Təbii Sərbətlər Nazirliyi harada yerləşir?",
+    "time": "2025-07-28 20:31:03"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Bakı şəhəri, Yasamal rayonu, Kazım Kazımzadə küçəsi 100a. İndeks AZ 1062",
+    "category": "Ekologiya və Təbii Sərvətlər Nazirliyi",
+    "time": "2025-07-28 20:31:03"
+  },
+  {
+    "role": "system",
+    "selected_category": "Digər"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Nazirliyin binası harada yerləşir.",
+    "time": "2025-07-29 08:58:05"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Bakı şəhəri, Yasamal rayonu, Kazım Kazımzadə küçəsi 100a. İndeks AZ 1071",
+    "category": "Ekologiya və Təbii Sərvətlər Nazirliyi",
+    "time": "2025-07-29 08:58:05"
+  },
+  {
+    "role": "user",
+    "user": "Nəbi",
+    "sual": "Salam, nazirlik harda yerləşir?",
+    "time": "2025-07-29 10:24:11"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Bakı şəhəri, Yasamal rayonu, Kazım Kazımzadə küçəsi 100a. İndeks AZ 1071",
+    "category": "Ekologiya və Təbii Sərvətlər Nazirliyi",
+    "time": "2025-07-29 10:24:11"
+  },
+  {
+    "role": "user",
+    "user": "test Test",
+    "sual": "Salam, ekoloji təbii sərbətlər naziliyə halda yerləşək.",
+    "time": "2025-07-30 09:02:46"
+  },
+  {
+    "role": "assistant",
+    "cavab": "Bakı şəhəri, Yasamal rayonu, Kazım Kazımzadə küçəsi 100a. İndeks AZ 1068",
+    "category": "Ekologiya və Təbii Sərvətlər Nazirliyi",
+    "time": "2025-07-30 09:02:46"
+  }
+]
